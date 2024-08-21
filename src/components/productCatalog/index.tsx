@@ -1,5 +1,7 @@
+/* eslint-disable react/no-array-index-key */
 import React, { useState } from 'react';
 import { Menu, MenuProps, Pagination } from 'antd';
+import { Link } from 'react-router-dom';
 import {
   ProductCatalog,
   ProductCatalogLeftBox,
@@ -89,11 +91,12 @@ export const ProductCatalogComponent: React.FC = () => {
           </ProductCatalogLeftBox>
           <ProductCatalogRightBox>
             {currentProducts.map((product, index) => (
-              // eslint-disable-next-line react/no-array-index-key
-              <ProductCatalogRight key={index}>
-                <ProductCatalogRightImages src={product.src} />
-                <ProductCatalogRightContent>{product.text}</ProductCatalogRightContent>
-              </ProductCatalogRight>
+              <Link to="/san-pham" style={{ width: '25%', textDecoration: 'none' }}>
+                <ProductCatalogRight key={index}>
+                  <ProductCatalogRightImages src={product.src} />
+                  <ProductCatalogRightContent>{product.text}</ProductCatalogRightContent>
+                </ProductCatalogRight>
+              </Link>
             ))}
           </ProductCatalogRightBox>
         </ProductCatalogStyles>

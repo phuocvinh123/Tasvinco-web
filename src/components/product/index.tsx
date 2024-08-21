@@ -1,4 +1,5 @@
 import { ProductGalleryComponent } from './feature/productGallery';
+import { ProductInfoComponent } from './feature/productInfo';
 import { PageContent, PageTitleBox, PageTittle, ProductMain, ProductPageTitleBox } from './styled';
 
 export const ProductComponent: React.FC = () => {
@@ -12,6 +13,7 @@ export const ProductComponent: React.FC = () => {
       </PageTitleBox>
       <ProductMain>
         <ProductGalleryComponent />
+        <ProductInfoComponent />
       </ProductMain>
     </>
   );

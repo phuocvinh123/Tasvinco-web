@@ -1,4 +1,5 @@
-import React from 'react';
+/* eslint-disable react/no-array-index-key */
+import React, { useState, useRef } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -34,18 +35,32 @@ const setting = {
 };
 
 export const ProductGalleryComponent: React.FC = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const sliderRef = useRef<Slider | null>(null);
+
+  const handleImageClick = (index: number) => {
+    sliderRef.current?.slickGoTo(index);
+  };
+
   return (
     <ProductGalleryBox>
       <ProductGalleryImgTopBox>
-        <Slider {...settings}>
-          {ProductGalleryData.length &&
-            ProductGalleryData.map((data) => <ProductGalleryImgTop key={data.id} src={data.images} />)}
+        <Slider
+          ref={sliderRef}
+          {...settings}
+          initialSlide={currentSlide}
+          afterChange={(current) => setCurrentSlide(current)}
+        >
+          {ProductGalleryData.map((data, index) => (
+            <ProductGalleryImgTop key={index} src={data.images} />
+          ))}
         </Slider>
       </ProductGalleryImgTopBox>
       <ProductGalleryImgBottomBox>
         <Slider {...setting}>
-          {ProductGalleryData.length &&
-            ProductGalleryData.map((data) => <ProductGalleryImgBottom key={data.id} src={data.images} />)}
+          {ProductGalleryData.map((data, index) => (
+            <ProductGalleryImgBottom key={index} src={data.images} onClick={() => handleImageClick(index)} />
+          ))}
         </Slider>
       </ProductGalleryImgBottomBox>
     </ProductGalleryBox>

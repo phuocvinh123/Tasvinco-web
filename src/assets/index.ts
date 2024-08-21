@@ -20,6 +20,7 @@ import PageAbout from './images/page-about.png';
 import ContentPageAbout from './images/content-page-about.jpg';
 import BackgroundContact from './images/background-contact.png';
 import Dailybg from './images/daily-bg-01.png.webp';
+import IconProductDesc from './images/icon-product-desc.png';
 
 export {
   LOGO,
@@ -44,4 +45,5 @@ export {
   ContentPageAbout,
   BackgroundContact,
   Dailybg,
+  IconProductDesc,
 };
