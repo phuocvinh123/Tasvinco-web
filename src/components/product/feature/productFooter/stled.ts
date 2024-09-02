@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const ProductFooterBox = styled.div`
   width: 80%;
@@ -14,8 +14,13 @@ export const ProductTags = styled.div`
   margin-bottom: 40px;
 `;
 
-export const ProductTagsContentBox = styled.div`
+interface NawItemBoxProps {
+  isSelected: boolean;
+}
+
+export const ProductTagsContentBox = styled.div<NawItemBoxProps>`
   cursor: pointer;
+  position: relative;
 
   &:hover {
     & > div {
@@ -39,6 +44,23 @@ export const ProductTagsContentBox = styled.div`
       }
     }
   }
+
+  ${({ isSelected }) =>
+    isSelected &&
+    css`
+      & > div::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -20px;
+        height: 2px;
+        background-color: #d72e24;
+        transform: scaleX(1);
+        transform-origin: center;
+        transition: transform 0.3s ease;
+      }
+    `}
 `;
 
 export const ProductTagsContent = styled.div`

@@ -1,6 +1,7 @@
 import { AboutLayout, customerPartnerLayout, ProductCatalogLayout, ProductLayout } from 'layouts';
 import { ContactLayout } from 'layouts/contactLayout';
-import HomeLayout from 'layouts/HomeLayout';
+// import HomeLayout from 'layouts/HomeLayout';
+import { TestLAyout } from 'layouts/testLayout';
 import { SignIn } from 'modules/Auth/SignIn/Loadable';
 import { HomePage } from 'modules/HomePage/Loadable';
 
@@ -24,7 +25,7 @@ export const PUBLIC_ROUTES = [
   {
     path: RoutesName.HOME,
     component: HomePage,
-    layout: HomeLayout,
+    layout: TestLAyout,
     exact: true,
   },
   {

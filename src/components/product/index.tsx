@@ -1,4 +1,5 @@
-import { ProdcutFooterComponent } from './feature/productFooter';
+import { ProductFooterComponent } from './feature/productFooter';
+import { ProductReviewComponent } from './feature/productFooter/feature/productReview';
 import { ProductGalleryComponent } from './feature/productGallery';
 import { ProductInfoComponent } from './feature/productInfo';
 import { PageContent, PageTitleBox, PageTittle, ProductMain, ProductPageTitleBox } from './styled';
@@ -16,7 +17,8 @@ export const ProductComponent: React.FC = () => {
         <ProductGalleryComponent />
         <ProductInfoComponent />
       </ProductMain>
-      <ProdcutFooterComponent />
+      <ProductFooterComponent />
+      <ProductReviewComponent />
     </>
   );
 };
