@@ -16,9 +16,9 @@ export const MemberCompanyComponent = () => {
     <MemberCompanyStyles>
       <TitleStyles>Công ty thành viên</TitleStyles>
       <ContentStyles>
-        Với mục tiêu trở thành nhà cung cấp giải pháp toàn diện trong lĩnh vực hàn cắt và gia công kim loại, Tasvinco
+        Với mục tiêu trở thành nhà cung cấp giải pháp toàn diện trong lĩnh vực hàn cắt và gia công kim loại, Vinacom
         phát triển hệ thống công ty thành viên trên toàn quốc với cam kết bảo đảm mang đến chất lượng cùng dịch vụ tốt
-        nhất cho khách hàng. Đây cũng là bệ phóng ban đầu vững chắc, đưa thương hiệu Tasvinco không chỉ ở phạm vi quốc
+        nhất cho khách hàng. Đây cũng là bệ phóng ban đầu vững chắc, đưa thương hiệu Vinacom không chỉ ở phạm vi quốc
         gia mà còn tiến đến các thị trường quốc tế trong khu vực.
       </ContentStyles>
       <CompanyBoxStyles>

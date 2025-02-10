@@ -37,22 +37,22 @@ export const FooterPage: React.FC = () => {
       <FooterWidgets>
         <FooterColums>
           <Logo src={LogoWhite} alt="Logo" />
-          <ContentTitle>Công Ty TNHH Cơ Khí TASVINCO</ContentTitle>
+          <ContentTitle>Công Ty TNHH Cơ Khí Vinacom</ContentTitle>
           <Icons>
             <IconAddress />
-            <Content>Thôn Trung Thành, Xã Tam Mỹ Tây, Huyện Núi Thành, Tỉnh Quảng Nam, Việt Nam</Content>
+            <Content>224 Đinh Đức Thiện, Hòa MInh, Liên Chiểu, Đà Nẵng</Content>
           </Icons>
           <Icons>
             <IconPhoneCall />
-            <Content>0369.986.170 - 0987.700.421</Content>
+            <Content>0219.4396.170 - 0211.710.561</Content>
           </Icons>
           <Icons>
             <IconEmail />
-            <Content>infor@tasvinco.com</Content>
+            <Content>infor@gmail.com</Content>
           </Icons>
           <Icons>
             <IconWeb />
-            <Content>tasvinco.com</Content>
+            <Content>vinacom.com</Content>
           </Icons>
           <Icons style={{ gap: '30px', marginTop: '30px' }}>
             <Tooltip title="FaceBook">
@@ -93,7 +93,7 @@ export const FooterPage: React.FC = () => {
         </WidgetTitle>
       </FooterWidgets>
       <FooterBorderBoottom>
-        <ContentFooterEnd>© 2023 Công ty TNHH Cơ khí TASVINCO</ContentFooterEnd>
+        <ContentFooterEnd>© 2023 Công ty TNHH Cơ khí Vinacom</ContentFooterEnd>
       </FooterBorderBoottom>
     </Footer>
   );

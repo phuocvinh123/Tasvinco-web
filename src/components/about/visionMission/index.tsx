@@ -26,7 +26,7 @@ const iconMap = { IconHonest, IconFollow, IconSave, IconGrateful, IconCreative }
 export const VisionMissionComponent = () => {
   return (
     <VisionMissionAbout>
-      <TitleStyles>Công ty cổ phần công nghiệp tasvinco</TitleStyles>
+      <TitleStyles>Công ty cổ phần công nghiệp vinacom</TitleStyles>
       <ContentStyles>Giá trị cốt lõi</ContentStyles>
       <PageAboutBox>
         {VisionMissionData.length &&

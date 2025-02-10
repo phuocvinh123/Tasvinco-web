@@ -23,21 +23,21 @@ export const DifferenceComponent: React.FC = () => {
         <DifferenceStartBox>
           <DifferenceStartLeftBox>
             <DifferenceContent>
-              Đội ngũ nhân sự gắn kết và hiệu quả của Tasvinco gồm gần 500 thành viên được tuyển chọn kĩ lưỡng và đầy đủ
+              Đội ngũ nhân sự gắn kết và hiệu quả của Vinacom gồm gần 500 thành viên được tuyển chọn kĩ lưỡng và đầy đủ
               kĩ năng chuyên môn. Đội ngũ lãnh đạo của chúng tôi đã được trau dồi và phát triển trong 18 năm hoạt động
               của công ty cùng với các khoá học chuyên sâu dành cho cán bộ. Mỗi thành viên của chúng tôi đều cam kết đạt
               các kết quả đột phá. Chúng tôi cùng nhau làm việc và tiếp sức, hỗ trợ nhau để thành công.
             </DifferenceContent>
             <DifferenceContent>
-              Xây dựng Tasvinco như một gia đình, khơi gợi sức mạnh tập thể từ đề cao sự gắn kết là mục tiêu của chúng
-              tôi. Tasvinco đã và đang xây dựng một văn hoá doanh nghiệp với những giá trị giúp mỗi cá nhân phát triển
-              bản thân; tạo sự gắn kết làm nên sức mạnh tập thể. Tasvinco không chỉ là môi trường làm việc mà còn là nơi
+              Xây dựng Vinacom như một gia đình, khơi gợi sức mạnh tập thể từ đề cao sự gắn kết là mục tiêu của chúng
+              tôi. Vinacom đã và đang xây dựng một văn hoá doanh nghiệp với những giá trị giúp mỗi cá nhân phát triển
+              bản thân; tạo sự gắn kết làm nên sức mạnh tập thể. Vinacom không chỉ là môi trường làm việc mà còn là nơi
               mỗi thành viên thể hiện tinh thần lao động với những phẩm chất, sự sáng tạo, góp phần xây dựng và phát
               triển doanh nghiệp.
             </DifferenceContent>
             <DifferenceContent>
               Xây dựng các hoạt động sinh hoạt tập thể như thể thao, team building là một trong những hoạt động được
-              CBNV Tasvinco hưởng ứng.
+              CBNV Vinacom hưởng ứng.
             </DifferenceContent>
           </DifferenceStartLeftBox>
           <DifferenceStartRighttBox>
@@ -81,12 +81,12 @@ export const DifferenceComponent: React.FC = () => {
         <DifferenceTitles style={{ paddingTop: '120px' }}>GIỮ KHÁCH HÀNG BẰNG DỊCH VỤ BẢO HÀNH 24H</DifferenceTitles>
         <DifferenceEndContentBox>
           <DifferenceContent style={{ paddingBlock: '60px', width: '45%' }}>
-            Tasvinco luôn trung thành với tiêu chí <strong>“Giữ khách hàng bằng chất lượng”</strong>. Chú trọng nâng cao
+            Vinacom luôn trung thành với tiêu chí <strong>“Giữ khách hàng bằng chất lượng”</strong>. Chú trọng nâng cao
             chất lượng dịch vụ sau bán hàng; chúng tôi với đội ngũ kĩ thuật lành nghề, dịch vụ sửa chữa - bảo hành - hậu
             mãi nhanh gọn, tự hào được đánh giá là công ty hàng đầu về chất lượng dịch vụ khách hàng. Không chỉ bảo hành
-            các sản phẩm do Tasvinco cung cấp; chúng tôi sẵn sàng hỗ trợ các vấn đề kĩ thuật cho cả các sản phẩm ngoài
-            hệ thống.Với quy trình bảo hành 24h; Tasvinco nhận được rất nhiều phản hồi tích cực từ phía khách hàng. Xây
-            dựng được niềm tin về chất lượng sản phẩm và dịch vụ là niềm tự hào mà Tasvinco có được.
+            các sản phẩm do Vinacom cung cấp; chúng tôi sẵn sàng hỗ trợ các vấn đề kĩ thuật cho cả các sản phẩm ngoài hệ
+            thống.Với quy trình bảo hành 24h; Vinacom nhận được rất nhiều phản hồi tích cực từ phía khách hàng. Xây dựng
+            được niềm tin về chất lượng sản phẩm và dịch vụ là niềm tự hào mà Vinacom có được.
           </DifferenceContent>
           <Images
             style={{ paddingBlock: '60px' }}

@@ -35,7 +35,7 @@ export const VisionMissionData = [
     icon: 'IconGrateful',
     contentData: [
       { id: '4-1', Content: 'Biết ơn các đấng sinh thành, biết ơn gia đình.' },
-      { id: '4-2', Content: 'Biết ơn khách hàng, đối tác và những người giúp đỡ Tasvinco.' },
+      { id: '4-2', Content: 'Biết ơn khách hàng, đối tác và những người giúp đỡ Vinacom.' },
       { id: '4-3', Content: 'Biết ơn đồng nghiệp, những thế hệ đi trước.' },
     ],
   },

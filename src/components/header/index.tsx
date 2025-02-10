@@ -79,14 +79,14 @@ export const HeaderPage: React.FC = () => {
           <HeaderNav>
             <HeaderContact>
               <IconPhoneCall />
-              <Tooltip title="0369.986.170 - 0987.700.421">
-                <ContentHeaderNav>0369.986.170 - 0987.700.421</ContentHeaderNav>
+              <Tooltip title="0219.4396.170 - 0211.710.561">
+                <ContentHeaderNav>0219.4396.170 - 0211.710.561</ContentHeaderNav>
               </Tooltip>
             </HeaderContact>
             <HeaderContact>
               <IconEmail />
-              <Tooltip title="infor@tasvinco.com">
-                <ContentHeaderNav>infor@tasvinco.com</ContentHeaderNav>
+              <Tooltip title="infor@gmail.com">
+                <ContentHeaderNav>infor@gmail.com</ContentHeaderNav>
               </Tooltip>
             </HeaderContact>
             <HeaderContact>

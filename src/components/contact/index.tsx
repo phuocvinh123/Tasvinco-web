@@ -38,22 +38,22 @@ export const ContactComponent: React.FC = () => {
         <ContactFormStyles>
           <ContacrFormLeftBox>
             <LogoStyles src={LogoWhite} />
-            <TitleLeft>Công ty cổ phần doanh nghiệp Tasvinco</TitleLeft>
+            <TitleLeft>Công ty cổ phần doanh nghiệp Vinacom</TitleLeft>
             <ContentBoxStyles>
               <IconAddress />
-              <Content>Thôn Trung Thành, Xã Tam Mỹ Tây, Huyện Núi Thành, Tỉnh Quảng Nam, Việt Nam</Content>
+              <Content>224 Đinh Đức Thiện, Hòa MInh, Liên Chiểu, Đà Nẵng</Content>
             </ContentBoxStyles>
             <ContentBoxStyles>
               <IconPhoneCall />
-              <Content>0369.986.170 - 0987.700.421</Content>
+              <Content>0219.4396.170 - 0211.710.561</Content>
             </ContentBoxStyles>
             <ContentBoxStyles>
               <IconEmail />
-              <Content>infor@tasvinco.com</Content>
+              <Content>infor@gmail.com</Content>
             </ContentBoxStyles>
             <PhoneCallBox>
               <IconPhoneCalls />
-              <Content>0369.986.170</Content>
+              <Content> 0211.710.561</Content>
             </PhoneCallBox>
           </ContacrFormLeftBox>
           <ContacrFormRightBox>
