@@ -90,7 +90,7 @@ export const HeaderPage: React.FC = () => {
               </Tooltip>
             </HeaderContact>
             <HeaderContact>
-              <Search onSearch={(searchTerm) => console.log(searchTerm)} />
+              <Search onSearch={() => {}} />
             </HeaderContact>
             <HeaderContact>
               <ContentHeaderNav>Giỏ hàng / 0 ₫</ContentHeaderNav>
